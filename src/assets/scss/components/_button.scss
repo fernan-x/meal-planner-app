@@ -1,0 +1,33 @@
+@import "../color";
+button {
+  display: flex;
+  align-items: center;
+  background-color: $primary-100;
+  color: $neutral-white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    background-color: $neutral-gray4;
+  }
+
+  &.big {
+    padding: 18px 85px;
+  }
+
+  & > svg {
+    margin-left: 14px;
+  }
+}

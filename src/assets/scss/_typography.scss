@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins";
+}
+
+/*
+ * Bold text
+ */
+.title-text-bold {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.header-text-bold {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.large-text-bold {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.medium-text-bold {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.normal-text-bold {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.small-text-bold {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.smaller-text-bold {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 17px;
+}
+
+/*
+ * Regular text
+ */
+.title-text-regular {
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.header-text-regular {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.large-text-regular {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.medium-text-regular {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.normal-text-regular {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.small-text-regular {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.smaller-text-regular {
+  font-size: 11px;
+  line-height: 17px;
+}

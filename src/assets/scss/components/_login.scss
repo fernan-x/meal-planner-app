@@ -1,0 +1,46 @@
+@import "../color";
+
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  color: $neutral-white;
+
+  .login__content {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(
+      179.98deg,
+      rgba(0, 0, 0, 0.4) 0.01%,
+      #000000 99.99%
+    );
+
+    .login__content-top,
+    .login__content-bottom {
+      margin-top: -10rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    img {
+      width: 79px;
+      height: 79px;
+    }
+
+    .login__content-top > span {
+      margin-top: 14px;
+    }
+
+    .login__content-bottom > button {
+      margin-top: 64px;
+    }
+  }
+}
