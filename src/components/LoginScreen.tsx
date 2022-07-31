@@ -2,6 +2,7 @@ import React from "react";
 import background from "../assets/img/login_background.png";
 import hat from "../assets/img/login_hat.png";
 import { HiArrowRight } from "react-icons/hi";
+import Button from "./core/Button";
 
 const LoginScreen: React.FC = () => {
   return (
@@ -16,9 +17,9 @@ const LoginScreen: React.FC = () => {
           <span className="normal-text-regular">
             Simple way to find Tasty Recipe
           </span>
-          <button className="big">
+          <Button variant="big" onClick={() => console.log("click")}>
             Start Cooking <HiArrowRight />
-          </button>
+          </Button>
         </div>
       </div>
     </div>
