@@ -10,15 +10,15 @@ const LoginScreen: React.FC = () => {
       <div className="login__content">
         <div className="login__content-top">
           <img src={hat} alt="Cooking hat" />
-          <span className="medium-text-bold">100K+ Premium Recipe</span>
+          <span className="medium-text-bold">100+ Recettes Healthy</span>
         </div>
         <div className="login__content-bottom">
-          <h1 className="title-text-bold">Get Cooking</h1>
+          <h1 className="title-text-bold">Meal planner</h1>
           <span className="normal-text-regular">
-            Simple way to find Tasty Recipe
+            Le meilleur moyen de trouver des bonnes recettes
           </span>
           <Button variant="big" onClick={() => console.log("click")}>
-            Start Cooking <HiArrowRight />
+            Commencer à cuisiner <HiArrowRight />
           </Button>
         </div>
       </div>
