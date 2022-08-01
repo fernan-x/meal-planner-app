@@ -15,10 +15,10 @@ const LoginScreen: React.FC = () => {
         <div className="login__content-bottom">
           <h1 className="title-text-bold">Meal planner</h1>
           <span className="normal-text-regular">
-            Le meilleur moyen de trouver des bonnes recettes
+            Trouvez les meilleurs recettes !
           </span>
           <Button variant="big" onClick={() => console.log("click")}>
-            Commencer à cuisiner <HiArrowRight />
+            Cuisiner <HiArrowRight />
           </Button>
         </div>
       </div>
