@@ -1,0 +1,18 @@
+@import "../color";
+@import "../typography";
+
+.input {
+  .input__label {
+  }
+
+  .input__field {
+    border: 1.5px solid $neutral-gray4;
+    border-radius: 10px;
+    padding: 19px 20px;
+
+    &:focus,
+    &:focus-visible {
+      border: 1.5px solid $primary-80;
+    }
+  }
+}
