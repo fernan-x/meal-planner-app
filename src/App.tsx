@@ -18,6 +18,7 @@ function App() {
                   label="Label"
                   placeholder="Placeholder"
                   onChange={() => {}}
+                  disabled
                 />
               </>
             }
