@@ -5,4 +5,10 @@ body,
   margin: 0;
 }
 
-@import "components/login", "components/button", "components/input";
+.container {
+  padding: 2rem;
+  width: calc(100vw - 4rem);
+  height: calc(100vh - 4rem);
+}
+
+@import "components/splashscreen", "components/button", "components/input";
