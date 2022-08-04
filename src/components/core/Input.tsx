@@ -2,7 +2,8 @@ import React from "react";
 
 interface InputProps {
   label: string;
-  onChange: React.ChangeEventHandler;
+  type?: "text" | "password";
+  onChange: React.ChangeEventHandler<HTMLInputElement>;
   placeholder?: string;
   value?: string;
   focus?: boolean;
@@ -12,6 +13,7 @@ interface InputProps {
 const Input: React.FC<InputProps> = ({
   label,
   onChange,
+  type = "text",
   value = "",
   placeholder = "",
   focus = false,
@@ -21,7 +23,7 @@ const Input: React.FC<InputProps> = ({
     <div className="input">
       <label className="input__label small-text-regular">{label}</label>
       <input
-        type="text"
+        type={type}
         value={value}
         placeholder={placeholder}
         autoFocus={focus}

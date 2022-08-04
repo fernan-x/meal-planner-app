@@ -5,6 +5,7 @@ interface ButtonProps {
   disabled?: boolean;
   children?: React.ReactNode;
   onClick: React.MouseEventHandler;
+  fullWidth?: boolean;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -12,10 +13,13 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   children,
   onClick,
+  fullWidth = false,
 }: ButtonProps) => {
   return (
     <button
-      className={`${variant}${disabled ? " disabled" : ""}`}
+      className={`${variant}${disabled ? " disabled" : ""}${
+        fullWidth ? " fullwidth" : ""
+      }`}
       onClick={onClick}
     >
       {children}

@@ -23,7 +23,7 @@ const SplashScreen: React.FC = () => {
           <span className="normal-text-regular">
             Trouvez les meilleurs recettes !
           </span>
-          <Button variant="big" onClick={() => navigate("/dashboard")}>
+          <Button variant="big" onClick={() => navigate("/login")}>
             Cuisiner <HiArrowRight />
           </Button>
         </div>

@@ -50,3 +50,25 @@
     }
   }
 }
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .login__title {
+    flex: 1;
+    margin-top: 2rem;
+  }
+
+  .login__form,
+  .login__actions {
+    width: 100%;
+    flex: 1;
+  }
+
+  .login__form > .input {
+    margin-bottom: 2rem;
+  }
+}

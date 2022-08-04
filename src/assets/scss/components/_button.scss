@@ -2,6 +2,7 @@
 button {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: $primary-100;
   color: $neutral-white;
   border-radius: 10px;
@@ -25,6 +26,18 @@ button {
 
   &.big {
     padding: 18px 85px;
+  }
+
+  &.medium {
+    padding: 15px 50px;
+  }
+
+  &.small {
+    padding: 10px 30px;
+  }
+
+  &.fullwidth {
+    width: 100%;
   }
 
   & > svg {
