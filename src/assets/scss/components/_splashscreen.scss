@@ -1,12 +1,12 @@
 @import "../color";
 
-.login {
+.splashscreen {
   width: 100vw;
   height: 100vh;
   background-size: cover;
   color: $neutral-white;
 
-  .login__content {
+  .splashscreen__content {
     height: 100%;
     width: 100%;
 
@@ -20,8 +20,8 @@
       #000000 99.99%
     );
 
-    .login__content-top,
-    .login__content-bottom {
+    .splashscreen__content-top,
+    .splashscreen__content-bottom {
       margin-top: -10rem;
       flex: 1;
       display: flex;
@@ -31,7 +31,7 @@
       align-items: center;
     }
 
-    .login__content-bottom {
+    .splashscreen__content-bottom {
       justify-content: flex-end;
       padding-bottom: 80px;
     }
@@ -41,12 +41,34 @@
       height: 79px;
     }
 
-    .login__content-top > span {
+    .splashscreen__content-top > span {
       margin-top: 14px;
     }
 
-    .login__content-bottom > button {
+    .splashscreen__content-bottom > button {
       margin-top: 64px;
     }
+  }
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  .login__title {
+    flex: 1;
+    margin-top: 2rem;
+  }
+
+  .login__form,
+  .login__actions {
+    width: 100%;
+    flex: 1;
+  }
+
+  .login__form > .input {
+    margin-bottom: 2rem;
   }
 }

@@ -5,22 +5,25 @@ import { HiArrowRight } from "react-icons/hi";
 import Button from "./core/Button";
 import { useNavigate } from "react-router-dom";
 
-const LoginScreen: React.FC = () => {
+const SplashScreen: React.FC = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="login" style={{ backgroundImage: `url(${background})` }}>
-      <div className="login__content">
-        <div className="login__content-top">
+    <div
+      className="splashscreen"
+      style={{ backgroundImage: `url(${background})` }}
+    >
+      <div className="splashscreen__content">
+        <div className="splashscreen__content-top">
           <img src={hat} alt="Cooking hat" />
           <span className="medium-text-bold">100+ Recettes Healthy</span>
         </div>
-        <div className="login__content-bottom">
+        <div className="splashscreen__content-bottom">
           <h1 className="title-text-bold">Meal planner</h1>
           <span className="normal-text-regular">
             Trouvez les meilleurs recettes !
           </span>
-          <Button variant="big" onClick={() => navigate("/dashboard")}>
+          <Button variant="big" onClick={() => navigate("/login")}>
             Cuisiner <HiArrowRight />
           </Button>
         </div>
@@ -29,4 +32,4 @@ const LoginScreen: React.FC = () => {
   );
 };
 
-export default LoginScreen;
+export default SplashScreen;
