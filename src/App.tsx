@@ -7,6 +7,7 @@ import SplashScreen from "./components/SplashScreen";
 import Login from "./components/auth/Login";
 
 import "./assets/scss/index.scss";
+import RatingBadge from "./components/core/RatingBadge";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
                   onChange={() => {}}
                   disabled
                 />
+                <RatingBadge rate={4.0} />
               </Container>
             }
           />
