@@ -1,0 +1,18 @@
+@import "../color";
+
+.rb {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 7px;
+  gap: 3px;
+  background: $secondary-20;
+  border-radius: 20px;
+  width: 37px;
+  height: 16px;
+
+  .rb__icon {
+    color: $rating;
+  }
+}

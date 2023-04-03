@@ -7,6 +7,8 @@ import SplashScreen from "./components/SplashScreen";
 import Login from "./components/auth/Login";
 
 import "./assets/scss/index.scss";
+import RatingBadge from "./components/core/RatingBadge";
+import SavedRecipes from "./components/dashboard/SavedRecipes";
 
 function App() {
   return (
@@ -15,19 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<SplashScreen />} />
           <Route path="/login" element={<Login />} />
-          <Route
-            path="/dashboard"
-            element={
-              <Container>
-                <Input
-                  label="Label"
-                  placeholder="Placeholder"
-                  onChange={() => {}}
-                  disabled
-                />
-              </Container>
-            }
-          />
+          <Route path="/dashboard" element={<SavedRecipes />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </BrowserRouter>

@@ -11,4 +11,5 @@ body,
   height: calc(100vh - 4rem);
 }
 
-@import "components/splashscreen", "components/button", "components/input";
+@import "components/splashscreen", "components/button", "components/input",
+  "components/ratingBadge", "components/cards";
