@@ -4,9 +4,13 @@ import hat from "../assets/img/login_hat.png";
 import { HiArrowRight } from "react-icons/hi";
 import Button from "./core/Button";
 import { useNavigate } from "react-router-dom";
+import { useIngredients } from "../hooks/useIngredients";
 
 const SplashScreen: React.FC = () => {
   const navigate = useNavigate();
+  const { ingredients } = useIngredients();
+
+  console.log(ingredients);
 
   return (
     <div
